@@ -1,0 +1,25 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.not-found-img {
+  width: 400px;
+}
+.not-found-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Light / blue-gray / 800 */
+
+  color: #1e293b;
+}

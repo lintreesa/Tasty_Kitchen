@@ -1,0 +1,54 @@
+.footer-container {
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+}
+@media screen and (max-width: 767px) {
+  .footer-container {
+    width: 360px;
+    max-width: 100%;
+  }
+}
+.footer-header-container {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.footer-logo {
+  width: 53px;
+  height: 43px;
+}
+.footer-heading {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+
+  color: #ffffff;
+}
+.footer-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* or 133% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.icon-container {
+  display: flex;
+}
+.icon-style {
+  color: #ffffff;
+  height: 48px;
+  width: 48px;
+  margin-left: 36px;
+}

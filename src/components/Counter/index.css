@@ -1,0 +1,10 @@
+.quantity-container {
+  display: flex;
+  align-items: center;
+}
+.quantity-controller-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
