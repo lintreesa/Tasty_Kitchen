@@ -1,0 +1,11 @@
+.image-container {
+  width: 1110px;
+
+  list-style: none;
+  background: #cb9165;
+}
+@media screen and (max-width: 767px) {
+  .image-container {
+    width: 360px;
+  }
+}

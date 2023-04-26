@@ -1,0 +1,170 @@
+.restaurant-item-details-container {
+  width: 1440px;
+  height: 344px;
+
+  background-color: #333333;
+  display: flex;
+  padding-left: 165px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+@media screen and (max-width: 767px) {
+  .restaurant-item-details-container {
+    width: 100%;
+    height: 230px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+}
+.image {
+  width: 445px;
+  height: 280px;
+
+  border-radius: 8px;
+}
+@media screen and (max-width: 767px) {
+  .image {
+    width: 200px;
+    height: 200px;
+    margin-left: -78px;
+    border-radius: 133.9812469482422px;
+  }
+}
+.restaurant-item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+
+  letter-spacing: 0.2px;
+
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.cuisine-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .cuisine-name {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.location {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+}
+@media screen and (max-width: 767px) {
+  .location {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.rating-price-details {
+  display: flex;
+}
+.restaurant-rating-container {
+  display: flex;
+  flex-direction: column;
+}
+.rating-value {
+  display: flex;
+  align-items: center;
+}
+.rating-style {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+
+  color: #ffffff;
+}
+.rating-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 200 */
+
+  color: #e2e8f0;
+}
+.vertical-line {
+  border-left: 1px solid #e2e8f0;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.item-price-details {
+  display: flex;
+  flex-direction: column;
+}
+.item-price {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  /* identical to box height, or 114% */
+
+  color: #ffffff;
+}
+.cost-for-two {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+
+  /* identical to box height, or 133% */
+
+  /* Light / blue-gray / 200 */
+
+  color: #e2e8f0;
+  margin-bottom: 20px;
+}
+
+.food-menu-items {
+  list-style: none;
+  padding-left: 100px;
+  display: flex;
+
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .food-menu-items {
+    padding-left: 24px;
+  }
+}

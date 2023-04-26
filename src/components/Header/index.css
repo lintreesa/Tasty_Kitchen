@@ -1,0 +1,183 @@
+.nav-header {
+  /* Light / blue-gray / 50 */
+
+  height: 96px;
+
+  width: 1440px;
+  background-color: #f8fafc;
+  padding-left: 165px;
+  padding-right: 167px;
+
+  top: 2px;
+  margin-bottom: 30px;
+}
+
+.nav-bar-container {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo-text {
+  font-family: DM Sans;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  margin-left: 10px;
+
+  color: #f7931e;
+  margin-right: auto;
+  text-decoration: none;
+}
+
+.website-logo {
+  width: 165px;
+}
+
+.nav-menu {
+  list-style-type: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link-item {
+  font-family: 'Roboto';
+  text-decoration: none;
+  margin-right: 32px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-link-home {
+  /* Headline/05 */
+
+  text-decoration: none;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+
+  letter-spacing: -0.355556px;
+
+  color: #f7931e;
+}
+.nav-link-cart {
+  /* Headline/05 */
+
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  text-decoration: none;
+  letter-spacing: -0.355556px;
+
+  /* Light / blue-gray / 700 */
+
+  color: #334155;
+}
+
+.logout-desktop-btn {
+  height: 32px;
+  width: 73px;
+
+  border-radius: 8px;
+  padding: 8px, 16px, 8px, 16px;
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  /* Light / base / white */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  background: #f7931e;
+  border-radius: 8px;
+  border: none;
+}
+
+.nav-bar-image {
+  width: 24px;
+}
+.nav-menu-mobile {
+  display: none;
+}
+
+.nav-mobile-icon {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .nav-logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-logo-text {
+    font-family: DM Sans;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+
+    color: #f7931e;
+    margin-right: auto;
+    text-decoration: none;
+  }
+  .website-logo {
+    width: 39px;
+  }
+  .nav-header {
+    height: 64px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 100%;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .nav-mobile-icon {
+    display: block;
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+
+  .nav-menu-mobile {
+    display: flex;
+    align-items: center;
+    list-style: none;
+
+    margin-right: auto;
+  }
+  .nav-link-home {
+    display: block;
+    margin-top: 50px;
+  }
+  .nav-link-cart {
+    margin-top: 50px;
+    display: block;
+  }
+  .logout-desktop-btn {
+    margin-top: 50px;
+    display: block;
+  }
+}
